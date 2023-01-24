@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <!-- Displat styles:
+    
+    Inline: only takes place requires by the content of that box and starts the next element after its ending , width and height wont work here and also top and bottom marign padding wont work
+
+    Block : takes the full available width and div is a block level element 
+
+    Inline-Block : works as inline element but setting width and height is possible .
+
+    None :in this the element is removed from the document space is not reserved 
+
+    Visibility : In this the element is hidden from the screen , space is reserved .
+
+-->
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            display: inline-block;
+            padding: 0;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            display: inline-block;
+            padding: 0;
+        }
+    </style>
+
+</head>
+<body>
+   <div class="box1">
+    Lorem 
+   </div>
+   <div class="box2">
+    Lorem  
+   </div>
+</body>
+</html>

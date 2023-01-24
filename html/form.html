@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+* ID is a unique identifier of every element in html and it can be accessed 
+  through it.
+* CLASS is used to group elements of similar group so that they can be accessed
+  for having a similar property
+Form
+1) action tag performs a particular action
+2) input type tells the type of input , radio here is a check box type feature
+   when name of the radio button is same , then only when radio button will be 
+   selected and the other will get deselected
+3) name is used to access these elements in backend
+4) placeholder is used to display info text in place of textInput place
+
+<body>
+    <div>
+        <h1>Travel form for a trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name">
+            <label for="sectiona">
+                <input type="radio" name="section" value="sectiona" id="sectiona">Section A
+            </label>
+            <label for="sectionb">
+                <input type="radio" name="section" value="sectionb" id="sectionb">Section B
+            </label>
+            <label for="sectionc">
+                <input type="radio" name="section" value="sectionc" id="sectionc">Section C
+            </label>
+            <label for="sectiond">
+                <input type="radio" name="section" value="sectiond" id="sectiond">Section D
+            </label>
+            <input type="checkbox" id="canteenFood" class="school">
+            <label for="canteenFood"> Canteen Food</label>
+            <textarea name="exlpain" id="explainId" cols="30" rows="10" placeholder="Explain why you want to go"> </textarea>
+            <select name="selectMode" id="selectModeId">
+                <option value="Bus">Bus</option>
+                <option value="plain">plain</option>
+                <option value="car">car</option>
+                <option value="train">train</option>
+            </select>
+        </form>
+    </div>
+</body>
+</html>

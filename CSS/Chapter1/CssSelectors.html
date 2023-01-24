@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+   
+    <!-- Selectors can be grouped together by usig commas -->
+    <style>
+        body{
+            background-color: black;      
+         }
+        h1 ,h3{
+            color: red;
+            
+        }
+        div{
+           background-color: aliceblue;
+        }
+        .back ,h3{
+            background-color: blue;
+        }
+        /* This is used to set properties to all the selectors */
+        *{
+           text-align: center;
+           margin: 0%;
+           padding: 0%;
+        }
+        #image{
+            padding: 1cm;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is heading</h1>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum expedita delectus assumenda quos iure quas quidem explicabo nemo, laudantium aliquid ea iste. Ipsam facere rem beatae reprehenderit aut explicabo odio tempora nobis recusandae suscipit! Tempore eveniet expedita rerum animi voluptatem?
+    </div>
+
+    <div class="back">
+        <h1>This is another heading</h1>
+    </div>
+    
+    <h3>This is 3rd heading</h3>
+    <div id="image">
+        <img src="https://i.pinimg.com/564x/24/d4/23/24d42356524aa7b36f78813f673caa64.jpg" alt="hanuman_image">
+     </div>
+     
+   
+    
+</body>
+</html>

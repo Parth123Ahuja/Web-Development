@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* 
+        
+        Positioning:
+
+        static : The default position : left , right , top , bottom has no effect( by default )
+
+        relative : in this position like lef , right top has effect 
+
+        abosolute : 
+        
+        fixed: in this the element is fixed and and not scrollable ( eg chat with us option )
+
+        sticky : didnt understand how it works
+
+        z-index : tells what element will above , it defines which layer will be above in case of overlapping
+
+
+        */
+        
+        
+        .container{
+            background-color: black;
+            color: white;
+            width: 100vw;
+            height: 5vh;
+            text-align: center;
+        }
+        .Bigbox{
+            background-color: aqua;
+            color:black;
+            width: 50vw;
+            height: 70vh;
+            margin: auto;
+        }
+        .box{
+            width: 25vh;
+            height: 25vh;
+            background-color: yellow;
+            color: blue;
+            margin: auto;
+            position: relative;
+
+        }
+        .box2{
+            background-color: red;
+            width: 25vh;
+            height: 25vh;
+            color: white;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque nemo illo ut nisi harum perspiciatis explicabo vero at, eveniet similique?
+    </div>
+    <div class="Bigbox">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime doloremque nostrum, suscipit quasi dolor tempore, laudantium unde distinctio excepturi quis qui exercitationem laborum eveniet magni corrupti consequuntur dolorum assumenda, delectus similique eaque nulla quia voluptatum dignissimos voluptatibus! Odio, sint est!
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, molestias.
+        </div>
+        <div class="box2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non animi tenetur vitae suscipit eligendi. Cumque vitae iusto et qui eos.
+        </div>
+    </div>
+</body>
+</html>

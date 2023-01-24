@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse</title>
+    <style>
+        .box1
+    {
+        background-color: red;
+        margin: 30px 0px;
+    }
+    /* when two margin overlap then margin collison happens then and the margin of container which is bigger is selected     */
+    .box2
+    {
+        background-color: aqua;
+        margin: 30px 0px;
+    }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptates non vero dolor, neque perspiciatis, consequatur minus ducimus cum quibusdam similique quas ex tempora alias cupiditate ut inventore! Molestias, ducimus.
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet praesentium ipsum eius vel tempora cupiditate nesciunt perferendis numquam minima quo voluptatibus totam, dolore eos accusamus cum molestiae esse eaque fugit aut ad. Veritatis eius, sint deserunt provident commodi nihil!
+    </div>
+</body>
+</html>
