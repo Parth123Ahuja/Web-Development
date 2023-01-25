@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+<!-- 
+        FlexBox properties {
+            
+        1) display : flex set the element as fex box
+        2) flex directice : it sets the elements of flex in particular direction
+        3) wrap : it sets the element accordingly above each other when the screnn resizes
+        4) justify:content(center) :- sets the elements in the center
+        5) align-item : center : center the elements vertically 
+        }
+        
+        flex items properties{
+        
+        1) order :- sets the order of elements inside the flexbox
+        2) align-self : alignment of particular element , same as align element
+        3) flex-grow : this is same as gravity only works when width of        elements is not set 
+         
+        }
+     -->
+
+    <style>
+        .container{
+            display: flex;                 
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            align-content: center;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            float: left;
+            color: white;
+            clear: left;
+            border: solid 2px black;
+            order: 4;
+            
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            float: left;
+            color: white;
+            clear: right;
+            border: solid 2px black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box1">Box</div>
+        <div class="box2">Box</div>
+        <div class="box2">Box</div>
+        <div class="box2">Box</div>
+        <div class="box2">Box</div>
+    </div>
+</body>
+</html>
