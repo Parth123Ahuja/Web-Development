@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-Layout</title>
+    <style>
+        *{
+            
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        li{
+            display: inline;
+            list-style: none;
+            padding: 20px;
+            
+        }
+        header{
+            background-color: black;
+            color: white;
+        }
+        .box1{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+        }
+        .box2{
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Download</li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="box1">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio animi architecto accusantium maiores magnam maxime dignissimos, facilis, corrupti eum harum recusandae quibusdam sint error. Fuga nulla commodi a ut laboriosam?
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo rem nobis neque, perspiciatis dignissimos natus quasi optio dolores sunt, eum nulla facilis! Repellendus natus molestiae dolorum voluptatibus eius debitis.
+        </div>
+    </div>
+</body>
+</html>

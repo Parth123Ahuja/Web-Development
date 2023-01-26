@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project</title>
+    <style>
+        header{
+            color: white;
+            background-color:rgb(1, 1, 61);
+            display: flex;
+            justify-content: space-between; 
+            position: sticky;
+            top: 0;
+            z-index: 1;   
+        }  
+        .icon{
+            width: 45px;
+            height: 45px;
+            background-color: chocolate;
+            margin:10px;
+        }  
+        ul{
+            font-size: 20px;
+        }
+        li{
+            display: inline;
+            padding: 10px;
+            margin: 20px;
+            color: chocolate;
+        }
+        .background{
+            width: 100vw;
+            height: 50vh;
+            background-color: burlywood;
+            position:sticky;
+            font-size: 50px;
+        }
+        .container{
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            height: 70vh;
+            width: 70vw;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+            border-radius: 6cm;
+            
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: chocolate;
+            margin: 100px;
+            border-radius: 1cm;
+           
+        }
+        .bigcontainer{
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="icon"></div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="background"></div>
+    <div class="bigcontainer">
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+</html>
